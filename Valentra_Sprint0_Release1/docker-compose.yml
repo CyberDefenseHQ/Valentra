@@ -1,0 +1,5 @@
+services:
+  valentra:
+    build: .
+    ports:
+      - '5000:5000'
