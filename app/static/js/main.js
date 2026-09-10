@@ -1,0 +1,1 @@
+console.log('Valentra UI initialized');
