@@ -2,40 +2,60 @@
 
 ![Valentra Logo](docs/images/valentra-logo.png)
 
-**Version 0.4.0 — Sprint 0 Release 4**
+**Version 0.4.0 - Sprint 0 Complete**
 
-Valentra is a security engineering portfolio project designed to demonstrate the development of a modular security platform.
+Valentra is a security engineering portfolio project designed to demonstrate the incremental development of a modular security platform.
 
-## Release 4
+## Sprint 0 - Platform Foundation
 
-Sprint 0 Release 4 introduces the professional UI shell, building on the application and identity foundations established in previous releases.
+Sprint 0 established the application, identity, and user interface foundations required for future security-engineering functionality.
 
-### Current Components
+### Current Capabilities
 
-- Flask application factory
+- Flask application factory and modular blueprint architecture
 - SQLAlchemy database integration
-- Flask-Login foundation
+- Flask-Login integration and user loader
 - Bcrypt integration
 - Database migration support
-- Health-check endpoint
-- User model with role field
+- User model with username, password hash, and role fields
 - Authentication route scaffolding
 - Audit logging foundation
+- Health-check endpoint
 - Shared application UI template
 - Security overview dashboard
 - Navigation for Detection, Identity, Incidents, and Reports
 - Static CSS and JavaScript assets
 
-### Dashboard
+## Sprint 0 Release History
 
-The security overview currently displays placeholder summary metrics for:
+### v0.1.0 - Initial Foundation
+Established the initial Valentra project structure and development foundation.
+
+### v0.2.0 - Application Foundation
+Established the Flask application foundation, extensions, dashboard, and health-check functionality.
+
+### v0.3.0 - Identity Foundation
+Added the user model, authentication scaffolding, Flask-Login user loading, and audit logging foundation.
+
+### v0.4.0 - Professional UI Shell
+Added the shared application interface, security navigation, dashboard summary cards, CSS styling, and JavaScript foundation.
+
+## Current Dashboard
+
+The Security Overview currently displays demonstration values for:
 
 - Security Score
 - Active Incidents
 - Detection Rules
 
-These values are currently part of the UI demonstration and are not yet generated from live security-event data.
+These values are placeholders and are not yet generated from live security-event data.
 
-## Current Status
+## Current Limitations
 
-Valentra is under active development. Release 4 establishes the user interface foundation for future security functionality. Authentication, authorization, security-event processing, detection logic, incident workflows, and reporting will be implemented incrementally in future releases.
+Valentra does not yet provide complete authentication, authorization, event ingestion, detection, incident response, or reporting workflows. Components introduced during Sprint 0 establish the foundation for those capabilities rather than representing completed production functionality.
+
+## Next - Sprint 1
+
+Sprint 1 will begin transforming Valentra from a platform foundation into a functioning security application.
+
+Initial development will focus on security-event ingestion and detection, allowing Valentra to process simulated security events and begin generating meaningful detection results.
